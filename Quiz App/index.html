@@ -36,10 +36,18 @@
             <option value="27">Animals</option>
             <option value="28">Vehicles</option>
         </select>
+
+        <div id="number-of-questions-container">
+            <button id="decrease">-</button>
+            <input id="number-of-questions" type="number" value="5" min="1" max="20" readonly>
+            <button id="increase">+</button>
+        </div>
+
         <button id="startQuiz">Start Quiz</button>
     </div>
 
     <div id="quiz-container"></div>
+    <h2 id="score"></h2>
 
     <script src="main.js"></script>
 

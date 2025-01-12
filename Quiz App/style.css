@@ -21,6 +21,10 @@ label{
     display: block;
 }
 
+footer{
+    padding-bottom: 10px;
+}
+
 #search-container {
     margin: 20px auto;
     padding: 20px;
@@ -29,6 +33,44 @@ label{
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     width: 80%;
     max-width: 500px;
+}
+
+#number-of-questions-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+#number-of-questions {
+    text-align: center;
+    font-size: 1.2rem;
+    border: none;
+    padding: 5px;
+    width: auto;               
+    min-width: 40px;           
+    box-sizing: border-box;
+}
+
+#decrease, #increase {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border: none;
+    border-radius: 50%;  /* Makes the button perfectly circular */
+    background: #3a3a3a;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#decrease:hover, #increase:hover {
+    background: #218838;
 }
 
 #category-select {
