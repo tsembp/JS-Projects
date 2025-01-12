@@ -1,0 +1,92 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+    color: #333;
+    text-align: center;
+}
+
+h1 {
+    color: #444;
+    margin-top: 20px;
+}
+
+#search-container {
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 80%;
+    max-width: 500px;
+}
+
+#category-select {
+    padding: 10px;
+    width: 60%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+#startQuiz {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background: #28a745;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+#startQuiz:hover {
+    background: #218838;
+}
+
+/* Quiz Container Styling */
+#quiz-container {
+    margin-top: 20px;
+}
+
+#quiz-container div {
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    margin: 10px auto;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    width: 80%;
+    max-width: 500px;
+    text-align: left;
+}
+
+/* Quiz Answer Button Styling */
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+/* Correct & Wrong Answer Styling */
+.correct {
+    background: #28a745;
+    color: white;
+}
+
+.wrong {
+    background: #dc3545;
+    color: white;
+}
