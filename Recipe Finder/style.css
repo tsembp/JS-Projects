@@ -47,3 +47,8 @@ button:hover {
 #results img{
     border-radius: 5px;
 }
+
+footer{
+    text-align: center;
+    color:rgb(108, 108, 108);
+}

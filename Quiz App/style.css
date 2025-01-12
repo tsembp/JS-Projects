@@ -13,6 +13,14 @@ h1 {
     margin-top: 20px;
 }
 
+label{
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+}
+
 #search-container {
     margin: 20px auto;
     padding: 20px;
@@ -79,6 +87,36 @@ button {
 button:hover {
     opacity: 0.9;
 }
+
+/* Dropdown menu styling */
+#category-select {
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    border: 2px solid #28a745;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #333;
+    background-color: #f9f9f9;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Hover and focus effects */
+#category-select:hover, #category-select:focus {
+    border-color: #218838;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Style the options */
+#category-select option {
+    padding: 10px;
+    font-size: 1rem;
+    color: #333;
+}
+
 
 /* Correct & Wrong Answer Styling */
 .correct {
